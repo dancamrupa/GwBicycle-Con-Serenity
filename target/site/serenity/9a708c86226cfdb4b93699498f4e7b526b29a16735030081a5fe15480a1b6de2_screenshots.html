@@ -1,0 +1,349 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="0167ebbc0cd8828ebcd746fd6485107d19e29932f9aa586c9773de9b3a5c50b0.html">HU-001 Buscador GW</a></span>
+                > <span class="truncate-60"><a
+                    href="9a708c86226cfdb4b93699498f4e7b526b29a16735030081a5fe15480a1b6de2.html">Buscar palabra en el buscador de GW exitoso </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 30-06-2021 18:38</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">HU-001 Buscador GW </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Yo como usuario de GW<br />
+Quiero buscar en el buscador un producto<br />
+Para ver el producto en la pagina
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Buscar palabra en el buscador de GW exitoso
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given que me encuentro en la pagina de GW con la url &lt;Url&gt;<br>When busco el proudcto &lt;Producto&gt; en el buscador<br>Then podre ver el producto &lt;Producto&gt; en pantalla</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>tasks.BuscarProductoEnGw.performAs(BuscarProductoEnGw.java:22)<br />stepDefinitions.GWBuscadorStepDefinitions.buscoElProudctoEnElBuscador(GWBuscadorStepDefinitions.java:31)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.xpath: //div[contains(text(),'CARAMAÑOLA PLASTICA S-114 GW SHIMANO')]//ancestor::a to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                        <pre>tasks.BuscarProductoEnGw.performAs(BuscarProductoEnGw.java :22)<br />stepDefinitions.GWBuscadorStepDefinitions.buscoElProudctoEnElBuscador(GWBuscadorStepDefinitions.java :31)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource6698167225768910931.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="14c9cbaffef0329b0fc101eefbc3174b0c51c7ad557096250fe4f2020f9fc123.png" title=" Example: {Escenario=Buscar palabra en el buscador de GW exitoso, Producto=SIMULADOR ELITE NOVO MAG SPEED, Url=https://gwbicycles.com}" width="1600"/>
+                <img src="14c9cbaffef0329b0fc101eefbc3174b0c51c7ad557096250fe4f2020f9fc123.png" title=" Given que me encuentro en la pagina de GW con la url https://gwbicycles.com" width="1600"/>
+                <img src="bb4e12342436e6354796496430ee757f0d7bbf61cad361d28033db4599587dda.png" title=" When busco el proudcto SIMULADOR ELITE NOVO MAG SPEED en el buscador" width="1600"/>
+                <img src="bb4e12342436e6354796496430ee757f0d7bbf61cad361d28033db4599587dda.png" title=" Danny buscar producto en gw" width="1600"/>
+                <img src="bb4e12342436e6354796496430ee757f0d7bbf61cad361d28033db4599587dda.png" title=" Danny clicks on " width="1600"/>
+                <img src="0b59abfae6ddc34f9916d70cf6ef668e797e6f43ae40d76586fc2b7b1d47bf1a.png" title=" Danny clicks on  (completed)" width="1600"/>
+                <img src="0b59abfae6ddc34f9916d70cf6ef668e797e6f43ae40d76586fc2b7b1d47bf1a.png" title=" Danny enters 'SIMULADOR ELITE NOVO MAG SPEED' into El campo donde se realiza la busque del producto" width="1600"/>
+                <img src="757c8f1cd439c81fe603f862bc348c94f006c065ee8a78f6c7556499ebae29eb.png" title=" Danny enters 'SIMULADOR ELITE NOVO MAG SPEED' into El campo donde se realiza la busque del producto (completed)" width="1600"/>
+                <img src="24b69db8eafbc8270eb3832aacb46022c9a7a603beb63356d30cd8d93b45414b.png" title=" Danny clicks on " width="1600"/>
+                <img src="b2c88ed0c2a5e774fcf0f88d09d6b01443643a51b3c2cf72a69da47501160173.png" title=" Danny clicks on  (completed)" width="1600"/>
+                <img src="b2c88ed0c2a5e774fcf0f88d09d6b01443643a51b3c2cf72a69da47501160173.png" title=" Danny clicks on " width="1600"/>
+                <img src="12628a2fcc2ef68e03c7203f8eb309908593c9fd24df1284c1292a0dad6f729b.png" title=" Danny clicks on  (completed)" width="1600"/>
+                <img src="a0589e4696cb1b7b132c9934abcfb156253ab4797647d4a24bb1263403370f35.png" title=" Danny esperar" width="1600"/>
+                <img src="a0589e4696cb1b7b132c9934abcfb156253ab4797647d4a24bb1263403370f35.png" title=" Danny esperar (completed)" width="1600"/>
+                <img src="a0589e4696cb1b7b132c9934abcfb156253ab4797647d4a24bb1263403370f35.png" title=" Danny buscar producto en gw (completed)" width="1600"/>
+                <img src="a0589e4696cb1b7b132c9934abcfb156253ab4797647d4a24bb1263403370f35.png" title=" When busco el proudcto SIMULADOR ELITE NOVO MAG SPEED en el buscador (completed)" width="1600"/>
+                <img src="a0589e4696cb1b7b132c9934abcfb156253ab4797647d4a24bb1263403370f35.png" title=" Then podre ver el producto SIMULADOR ELITE NOVO MAG SPEED en pantalla" width="1600"/>
+                <img src="a0589e4696cb1b7b132c9934abcfb156253ab4797647d4a24bb1263403370f35.png" title=" Then  should be an element containing 'SIMULADOR ELITE NOVO MAG SPEED'" width="1600"/>
+                <img src="a0589e4696cb1b7b132c9934abcfb156253ab4797647d4a24bb1263403370f35.png" title=" Then  should be an element containing 'SIMULADOR ELITE NOVO MAG SPEED' (completed)" width="1600"/>
+                <img src="a0589e4696cb1b7b132c9934abcfb156253ab4797647d4a24bb1263403370f35.png" title=" Then podre ver el producto SIMULADOR ELITE NOVO MAG SPEED en pantalla (completed)" width="1600"/>
+                <img src="a0589e4696cb1b7b132c9934abcfb156253ab4797647d4a24bb1263403370f35.png" title=" Example: {Escenario=Buscar palabra en el buscador de GW exitoso, Producto=SIMULADOR ELITE NOVO MAG SPEED, Url=https://gwbicycles.com} (completed)" width="1600"/>
+                <img src="8821198c1ff8cb85c60206a227a5990a97a0d9e0e8c1041e22f8a56c009853fb.png" title=" Example: {Escenario=Buscar palabra en el buscador de GW exitoso, Producto=BICICLETA RIN12 BUGS, Url=https://gwbicycles.com}" width="1600"/>
+                <img src="8821198c1ff8cb85c60206a227a5990a97a0d9e0e8c1041e22f8a56c009853fb.png" title=" Given que me encuentro en la pagina de GW con la url https://gwbicycles.com" width="1600"/>
+                <img src="8821198c1ff8cb85c60206a227a5990a97a0d9e0e8c1041e22f8a56c009853fb.png" title=" When busco el proudcto BICICLETA RIN12 BUGS en el buscador" width="1600"/>
+                <img src="bb4e12342436e6354796496430ee757f0d7bbf61cad361d28033db4599587dda.png" title=" Danny buscar producto en gw" width="1600"/>
+                <img src="bb4e12342436e6354796496430ee757f0d7bbf61cad361d28033db4599587dda.png" title=" Danny clicks on " width="1600"/>
+                <img src="0b59abfae6ddc34f9916d70cf6ef668e797e6f43ae40d76586fc2b7b1d47bf1a.png" title=" Danny clicks on  (completed)" width="1600"/>
+                <img src="0b59abfae6ddc34f9916d70cf6ef668e797e6f43ae40d76586fc2b7b1d47bf1a.png" title=" Danny enters 'BICICLETA RIN12 BUGS' into El campo donde se realiza la busque del producto" width="1600"/>
+                <img src="578957c25003cb4593bc0e93dee01eb049583a466208eab1ea34e129ce32578f.png" title=" Danny enters 'BICICLETA RIN12 BUGS' into El campo donde se realiza la busque del producto (completed)" width="1600"/>
+                <img src="578957c25003cb4593bc0e93dee01eb049583a466208eab1ea34e129ce32578f.png" title=" Danny clicks on " width="1600"/>
+                <img src="e194a0311716a0d7074275ca45920afb4b0b3bebc228b6eb6aec3c6a42e84372.png" title=" Danny clicks on  (completed)" width="1600"/>
+                <img src="e194a0311716a0d7074275ca45920afb4b0b3bebc228b6eb6aec3c6a42e84372.png" title=" Danny clicks on " width="1600"/>
+                <img src="ca65767e9204d6cdf609b187560ea8af0e5f5f4f6aba8f68c1ded0fb7cf20179.png" title=" Danny clicks on  (completed)" width="1600"/>
+                <img src="ca65767e9204d6cdf609b187560ea8af0e5f5f4f6aba8f68c1ded0fb7cf20179.png" title=" Danny esperar" width="1600"/>
+                <img src="c369ea56db6692aa110fbcffacbf74e47835f5b433454233b8fcb57310f3b577.png" title=" Danny esperar (completed)" width="1600"/>
+                <img src="c369ea56db6692aa110fbcffacbf74e47835f5b433454233b8fcb57310f3b577.png" title=" Danny buscar producto en gw (completed)" width="1600"/>
+                <img src="c369ea56db6692aa110fbcffacbf74e47835f5b433454233b8fcb57310f3b577.png" title=" When busco el proudcto BICICLETA RIN12 BUGS en el buscador (completed)" width="1600"/>
+                <img src="c369ea56db6692aa110fbcffacbf74e47835f5b433454233b8fcb57310f3b577.png" title=" Then podre ver el producto BICICLETA RIN12 BUGS en pantalla" width="1600"/>
+                <img src="c369ea56db6692aa110fbcffacbf74e47835f5b433454233b8fcb57310f3b577.png" title=" Then  should be an element containing 'BICICLETA RIN12 BUGS'" width="1600"/>
+                <img src="c369ea56db6692aa110fbcffacbf74e47835f5b433454233b8fcb57310f3b577.png" title=" Then  should be an element containing 'BICICLETA RIN12 BUGS' (completed)" width="1600"/>
+                <img src="c369ea56db6692aa110fbcffacbf74e47835f5b433454233b8fcb57310f3b577.png" title=" Then podre ver el producto BICICLETA RIN12 BUGS en pantalla (completed)" width="1600"/>
+                <img src="c369ea56db6692aa110fbcffacbf74e47835f5b433454233b8fcb57310f3b577.png" title=" Example: {Escenario=Buscar palabra en el buscador de GW exitoso, Producto=BICICLETA RIN12 BUGS, Url=https://gwbicycles.com} (completed)" width="1600"/>
+                <img src="e85d5775dcaf7bc351297d7cb9e007f9d953e0cfd124ca822da5c3e724f47ac5.png" title=" Example: {Escenario=Buscar palabra en el buscador de GW exitoso, Producto=BICICLETA PLEGABLE ALUMINIO 20P MONTREAL GW, Url=https://gwbicycles.com}" width="1600"/>
+                <img src="e85d5775dcaf7bc351297d7cb9e007f9d953e0cfd124ca822da5c3e724f47ac5.png" title=" Given que me encuentro en la pagina de GW con la url https://gwbicycles.com" width="1600"/>
+                <img src="e85d5775dcaf7bc351297d7cb9e007f9d953e0cfd124ca822da5c3e724f47ac5.png" title=" When busco el proudcto BICICLETA PLEGABLE ALUMINIO 20P MONTREAL GW en el buscador" width="1600"/>
+                <img src="6c25cb6bacec471a2a6ef992c0f896aff7172f5bc112bbdbea62dbc0ec68e476.png" title=" Danny buscar producto en gw" width="1600"/>
+                <img src="bb4e12342436e6354796496430ee757f0d7bbf61cad361d28033db4599587dda.png" title=" Danny clicks on " width="1600"/>
+                <img src="0b59abfae6ddc34f9916d70cf6ef668e797e6f43ae40d76586fc2b7b1d47bf1a.png" title=" Danny clicks on  (completed)" width="1600"/>
+                <img src="0b59abfae6ddc34f9916d70cf6ef668e797e6f43ae40d76586fc2b7b1d47bf1a.png" title=" Danny enters 'BICICLETA PLEGABLE ALUMINIO 20P MONTREAL GW' into El campo donde se realiza la busque del producto" width="1600"/>
+                <img src="dd974576034a57e4163f317b69ba01d980776a607bf769d1f4469e85dfeae7e1.png" title=" Danny enters 'BICICLETA PLEGABLE ALUMINIO 20P MONTREAL GW' into El campo donde se realiza la busque del producto (completed)" width="1600"/>
+                <img src="dd974576034a57e4163f317b69ba01d980776a607bf769d1f4469e85dfeae7e1.png" title=" Danny clicks on " width="1600"/>
+                <img src="1a8df99f42376efbce9d43be41bc1ace5cb5f94d7fc6ec8cfba01cd7b57f1849.png" title=" Danny clicks on  (completed)" width="1600"/>
+                <img src="1a8df99f42376efbce9d43be41bc1ace5cb5f94d7fc6ec8cfba01cd7b57f1849.png" title=" Danny clicks on " width="1600"/>
+                <img src="c91e46861e9976647c8570f213e9aeda53ff29feb38652262060e2e4433eb62a.png" title=" Danny clicks on  (completed)" width="1600"/>
+                <img src="c91e46861e9976647c8570f213e9aeda53ff29feb38652262060e2e4433eb62a.png" title=" Danny esperar" width="1600"/>
+                <img src="3efecd2617424c94279a3801fa214ba4d26151b6157b5c64f8ab4b6e1b8889f3.png" title=" Danny esperar (completed)" width="1600"/>
+                <img src="3efecd2617424c94279a3801fa214ba4d26151b6157b5c64f8ab4b6e1b8889f3.png" title=" Danny buscar producto en gw (completed)" width="1600"/>
+                <img src="3efecd2617424c94279a3801fa214ba4d26151b6157b5c64f8ab4b6e1b8889f3.png" title=" When busco el proudcto BICICLETA PLEGABLE ALUMINIO 20P MONTREAL GW en el buscador (completed)" width="1600"/>
+                <img src="3efecd2617424c94279a3801fa214ba4d26151b6157b5c64f8ab4b6e1b8889f3.png" title=" Then podre ver el producto BICICLETA PLEGABLE ALUMINIO 20P MONTREAL GW en pantalla" width="1600"/>
+                <img src="3efecd2617424c94279a3801fa214ba4d26151b6157b5c64f8ab4b6e1b8889f3.png" title=" Then  should be an element containing 'BICICLETA PLEGABLE ALUMINIO 20P MONTREAL GW'" width="1600"/>
+                <img src="3efecd2617424c94279a3801fa214ba4d26151b6157b5c64f8ab4b6e1b8889f3.png" title=" Then  should be an element containing 'BICICLETA PLEGABLE ALUMINIO 20P MONTREAL GW' (completed)" width="1600"/>
+                <img src="3efecd2617424c94279a3801fa214ba4d26151b6157b5c64f8ab4b6e1b8889f3.png" title=" Then podre ver el producto BICICLETA PLEGABLE ALUMINIO 20P MONTREAL GW en pantalla (completed)" width="1600"/>
+                <img src="3efecd2617424c94279a3801fa214ba4d26151b6157b5c64f8ab4b6e1b8889f3.png" title=" Example: {Escenario=Buscar palabra en el buscador de GW exitoso, Producto=BICICLETA PLEGABLE ALUMINIO 20P MONTREAL GW, Url=https://gwbicycles.com} (completed)" width="1600"/>
+                <img src="8821198c1ff8cb85c60206a227a5990a97a0d9e0e8c1041e22f8a56c009853fb.png" title=" Example: {Escenario=Buscar palabra en el buscador de GW exitoso, Producto=CARAMA&Ntilde;OLA PLASTICA S-114 GW SHIMANO, Url=https://gwbicycles.com}" width="1600"/>
+                <img src="8821198c1ff8cb85c60206a227a5990a97a0d9e0e8c1041e22f8a56c009853fb.png" title=" Given que me encuentro en la pagina de GW con la url https://gwbicycles.com" width="1600"/>
+                <img src="8821198c1ff8cb85c60206a227a5990a97a0d9e0e8c1041e22f8a56c009853fb.png" title=" When busco el proudcto CARAMA&Ntilde;OLA PLASTICA S-114 GW SHIMANO en el buscador" width="1600"/>
+                <img src="bb4e12342436e6354796496430ee757f0d7bbf61cad361d28033db4599587dda.png" title=" Danny buscar producto en gw" width="1600"/>
+                <img src="bb4e12342436e6354796496430ee757f0d7bbf61cad361d28033db4599587dda.png" title=" Danny clicks on " width="1600"/>
+                <img src="0b59abfae6ddc34f9916d70cf6ef668e797e6f43ae40d76586fc2b7b1d47bf1a.png" title=" Danny clicks on  (completed)" width="1600"/>
+                <img src="0b59abfae6ddc34f9916d70cf6ef668e797e6f43ae40d76586fc2b7b1d47bf1a.png" title=" Danny enters 'CARAMA&Ntilde;OLA PLASTICA S-114 GW SHIMANO' into El campo donde se realiza la busque del producto" width="1600"/>
+                <img src="3cc6e80e6d5c6eadc042b84e867234104d01164918c8b2dbf4252af079af4b59.png" title=" Danny enters 'CARAMA&Ntilde;OLA PLASTICA S-114 GW SHIMANO' into El campo donde se realiza la busque del producto (completed)" width="1600"/>
+                <img src="3cc6e80e6d5c6eadc042b84e867234104d01164918c8b2dbf4252af079af4b59.png" title=" Danny clicks on " width="1600"/>
+                <img src="983c273d4579daf1f764156217121ff5cff00a63b9aeaa08574f113264f7f2f5.png" title=" Danny clicks on  (completed)" width="1600"/>
+                <img src="983c273d4579daf1f764156217121ff5cff00a63b9aeaa08574f113264f7f2f5.png" title=" Danny clicks on " width="1600"/>
+                <img src="983c273d4579daf1f764156217121ff5cff00a63b9aeaa08574f113264f7f2f5.png" title=" Danny clicks on  (completed)" width="1600"/>
+                <img src="bb4e12342436e6354796496430ee757f0d7bbf61cad361d28033db4599587dda.png" title=" Example: {Escenario=Buscar palabra en el buscador de GW exitoso, Producto=BICICLETA 700C GW LUMEN 9VEL., Url=https://gwbicycles.com}" width="1600"/>
+                <img src="bb4e12342436e6354796496430ee757f0d7bbf61cad361d28033db4599587dda.png" title=" When busco el proudcto BICICLETA 700C GW LUMEN 9VEL. en el buscador" width="1600"/>
+                <img src="bb4e12342436e6354796496430ee757f0d7bbf61cad361d28033db4599587dda.png" title=" Danny buscar producto en gw" width="1600"/>
+                <img src="bb4e12342436e6354796496430ee757f0d7bbf61cad361d28033db4599587dda.png" title=" Danny clicks on " width="1600"/>
+                <img src="0b59abfae6ddc34f9916d70cf6ef668e797e6f43ae40d76586fc2b7b1d47bf1a.png" title=" Danny clicks on  (completed)" width="1600"/>
+                <img src="0b59abfae6ddc34f9916d70cf6ef668e797e6f43ae40d76586fc2b7b1d47bf1a.png" title=" Danny enters 'BICICLETA 700C GW LUMEN 9VEL.' into El campo donde se realiza la busque del producto" width="1600"/>
+                <img src="80e252fe14db8fa713d0231f0d95d419e00c4d01f5f6757024f21dc498eef903.png" title=" Danny enters 'BICICLETA 700C GW LUMEN 9VEL.' into El campo donde se realiza la busque del producto (completed)" width="1600"/>
+                <img src="80e252fe14db8fa713d0231f0d95d419e00c4d01f5f6757024f21dc498eef903.png" title=" Danny clicks on " width="1600"/>
+                <img src="54e92d15f43a162f4b50aa68d169c259f955bbccd0bfd567cb37481b870362d5.png" title=" Danny clicks on  (completed)" width="1600"/>
+                <img src="54e92d15f43a162f4b50aa68d169c259f955bbccd0bfd567cb37481b870362d5.png" title=" Danny clicks on " width="1600"/>
+                <img src="2fcacec54a9a242132716534b2fde6b7efae39cf5c2373b9f8dbec74773fddcc.png" title=" Danny clicks on  (completed)" width="1600"/>
+                <img src="2fcacec54a9a242132716534b2fde6b7efae39cf5c2373b9f8dbec74773fddcc.png" title=" Danny esperar" width="1600"/>
+                <img src="2fcacec54a9a242132716534b2fde6b7efae39cf5c2373b9f8dbec74773fddcc.png" title=" Danny esperar (completed)" width="1600"/>
+                <img src="2fcacec54a9a242132716534b2fde6b7efae39cf5c2373b9f8dbec74773fddcc.png" title=" Danny buscar producto en gw (completed)" width="1600"/>
+                <img src="2fcacec54a9a242132716534b2fde6b7efae39cf5c2373b9f8dbec74773fddcc.png" title=" When busco el proudcto BICICLETA 700C GW LUMEN 9VEL. en el buscador (completed)" width="1600"/>
+                <img src="2fcacec54a9a242132716534b2fde6b7efae39cf5c2373b9f8dbec74773fddcc.png" title=" Then podre ver el producto BICICLETA 700C GW LUMEN 9VEL. en pantalla" width="1600"/>
+                <img src="2fcacec54a9a242132716534b2fde6b7efae39cf5c2373b9f8dbec74773fddcc.png" title=" Then  should be an element containing 'BICICLETA 700C GW LUMEN 9VEL.'" width="1600"/>
+                <img src="2fcacec54a9a242132716534b2fde6b7efae39cf5c2373b9f8dbec74773fddcc.png" title=" Then  should be an element containing 'BICICLETA 700C GW LUMEN 9VEL.' (completed)" width="1600"/>
+                <img src="2fcacec54a9a242132716534b2fde6b7efae39cf5c2373b9f8dbec74773fddcc.png" title=" Then podre ver el producto BICICLETA 700C GW LUMEN 9VEL. en pantalla (completed)" width="1600"/>
+                <img src="2fcacec54a9a242132716534b2fde6b7efae39cf5c2373b9f8dbec74773fddcc.png" title=" Example: {Escenario=Buscar palabra en el buscador de GW exitoso, Producto=BICICLETA 700C GW LUMEN 9VEL., Url=https://gwbicycles.com} (completed): <span class='failing-color'>FAILURE</span>" width="1600"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>

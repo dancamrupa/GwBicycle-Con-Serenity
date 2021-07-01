@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="HU-001 Buscador GW" skipped="0" tests="5" time="119.25" timestamp="2021-06-30 06:38:04"><testcase name="Buscar palabra en el buscador de GW exitoso"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+tasks.BuscarProductoEnGw.performAs(BuscarProductoEnGw.java:22)&#13;
+stepDefinitions.GWBuscadorStepDefinitions.buscoElProudctoEnElBuscador(GWBuscadorStepDefinitions.java:31)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

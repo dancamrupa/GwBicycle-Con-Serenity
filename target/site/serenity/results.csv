@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"HU-001 Buscador GW","Buscar palabra en el buscador de GW exitoso","SUCCESS","2021-06-10T16:28:57.914-05:00[America/Bogota]","0.0","102.64"
+"HU-002 Buscador GW","Buscar un producto aleatorio en la pagina GW exitoso","SUCCESS","2021-06-10T16:26:39.119-05:00[America/Bogota]","0.0","29.97"
+"HU-003 Buscador GW","Buscar el producto en el buscador de GW","SUCCESS","2021-06-10T16:27:13.072-05:00[America/Bogota]","0.0","101.98"

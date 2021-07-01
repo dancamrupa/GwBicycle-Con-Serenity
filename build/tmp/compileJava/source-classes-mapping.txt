@@ -1,0 +1,16 @@
+tasks/BuscarProductoEnGw.java
+ tasks.BuscarProductoEnGw
+variablesGlobales/VaribalesGlobales.java
+ variablesGlobales.VaribalesGlobales
+interactions/Esperar.java
+ interactions.Esperar
+driver/SeleniumWebDriver.java
+ driver.SeleniumWebDriver
+interactions/ClickProductoAleatorio.java
+ interactions.ClickProductoAleatorio
+userInterface/GwUserInterface.java
+ userInterface.GwUserInterface
+tasks/BuscarProductoAleatorioEnGw.java
+ tasks.BuscarProductoAleatorioEnGw
+models/Producto.java
+ models.Producto
